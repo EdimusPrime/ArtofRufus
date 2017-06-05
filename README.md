@@ -1,4 +1,4 @@
-Alt-H2 Art of Rufus
+## Art of Rufus
 ###GA-FEWD Final Project
 ---
 
