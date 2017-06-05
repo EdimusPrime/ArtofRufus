@@ -1,5 +1,5 @@
 ## Art of Rufus
-###GA-FEWD Final Project
+### GA-FEWD Final Project
 ---
 
 In this project, I created a personal website for my Artwork. This was to esstentially kill two birds with one stone, as I needed a website to display my artwork as well as a focused goal for my final project in my General Assembly class.
