@@ -1,0 +1,139 @@
+@media (max-width: 1220px){
+	*{ max-width: 1220px;
+	}
+
+	 #banner2, .new_work{
+		display: none;
+		float: none;
+	}
+
+	.main_logo{
+	text-align: center;
+	width: 60vw;
+	font-family: 'Rock Salt', cursive;
+	font-size: 1em;
+	color: #DAA520;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border-bottom: 1px solid #DAA520;
+	margin: auto;
+	background:none;
+}
+
+.art_state{
+	word-wrap: break-word;
+}
+
+.collection{
+	display: inline-block;
+}
+
+.portfolioImages img{
+	width: 12rem;
+	height: 12rem;
+}
+
+
+/*.new_work img{
+	display: none;
+}*/
+
+
+
+
+
+
+}
+
+/*end of 1220px media*/
+
+@media (max-width: 760px){
+
+* {
+	max-width: 760px;
+	background-color: grey;
+	letter-spacing: 0.075rem;
+	text-decoration: none;
+}
+/*Landing Page*/
+.landing_banner, .collection img, 
+.about img, .explore{
+	display: none;
+}
+
+.portfolioImages{
+	display: block;
+
+}
+
+.portfolioImages img{
+	width: 7rem;
+	height: 7rem;
+}
+
+/*.landing_banner{
+	width: 60vw;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+}*/
+
+
+/*End Landing Page*/
+
+.main_container{
+	width: 60vw;
+ 	margin: auto;
+}
+
+.main_logo{
+	text-align: center;
+	width: 60vw;
+	font-family: 'Rock Salt', cursive;
+	font-size: 1em;
+	color: #DAA520;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border-bottom: 1px solid #DAA520;
+	margin: auto;
+	background:none;
+}
+
+.footer{
+	width: 60vw;
+	margin: auto;
+	justify-content: center;
+	border-top: 2px solid #DCDCDC;
+	text-align: center;
+	clear: both;	
+}
+
+.social{
+	justify-content: center;
+	width:20%;
+	display: flex;
+	margin: auto;
+}
+
+.social a{
+	margin: 10px;
+}
+
+}
+
+@media (max-width: 400px){
+
+.portfolioImages img{
+	width: 6rem;
+	height: 6rem;
+}
+
+.title, .medium, .price, .about, .cv{
+
+	font-size: .7rem;
+}
+
+}
+

@@ -1,47 +1,65 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Art of Rufus: Portfolio</title>
+	
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/styleTest.css">
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Rock+Salt|Syncopate" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../images/style.css">
 
 </head>
 <body>
+
+
+
 	<div class='header'>
-		<div class="logo_header">
+	<div class="logo_header">
 			<a href="../Home/index.html"><h2>Art of Rufus</h2></a>
 		</div>
-		<div class="nav">
-			<!-- <a href="../Home/index.html"><h3>Home</h3></a> -->
 			<div class="dropdown">
+			<button class="dropbtn">
+				<div id="ham"></div>
+				<div id="ham"></div>
+				<div id="ham"></div>
+				</button>
+			
+	<div class="nav">
+		<!-- <div class="dropdown"> -->
+			<!-- <a href="../Home/index.html"><h3>Home</h3></a> -->
+			<div class="dropdown-content">
 			 <a href="../portfolio/index.html"><h3 class="portMenu">Portfolio</h3></a>
-				<div class="dropdown-content">
-    				<a href="./2017.html">2017</a>
-    				<a href="./2016.html">2016</a>
-    				<a href="./2015.html">2015</a>
-    				<a href="./2014.html">2010-2014</a>
-  				</div>
-  			</div>
+				
+    				<!-- <a href="../portfolio/2017.html">2017</a>
+    				<a href="../portfolio/2016.html">2016</a>
+    				<a href="../portfolio/2015.html">2015</a>
+    				<a href="../portfolio/2014.html">2010-2014</a> -->
+  				
 			<a href="../about/index.html"><h3>About the Artist</h3></a>
-			<a href="../contact/index.html"><h3>Contact</h3></a>				
+			<a href="../contact/index.html"><h3>Contact</h3></a>
+			</div>	
+			</div>			
 		</div>
-		
-	</div>
+		</div>
+
+
 
 	<h1 class="pageTitle">Artwork Collections</h1>
 	
 	<div class='collection'>
 		<!-- overlay of images to be added in JS -->
 		<div class="portfolioFolder">
-			<a href="./2017.html"><img src="http://placehold.it/500x500"></a>
+			<a href="./2017.html"><img src="../images/2017/2017PortImage.jpg"></a>
 
 					<div class="explore">
 						<div class="exploreMore">Explore More
 						</div>
 					</div>
 
-			<section class="portName" id="2017">2017</section>
+			<a href="./2017.html"><section class="portName" id="2017">2017</section></a>
 
 		</div>
 
@@ -56,7 +74,7 @@
 						</div>
 					</div>
 
-			<section class="portName" id="2016">2016</section>
+			<a href="./2016.html"><section class="portName" id="2016">2016</section></a>
 		</div>
 
 		<!-- overlay of images to be added in JS -->
@@ -66,7 +84,7 @@
 						<div class="exploreMore">Explore More
 						</div>
 					</div>
-			<section class="portName" id="2015">2015</section>
+			<a href="./2015.html"><section class="portName" id="2015">2015</section></a>
 		</div>
 
 		<!-- overlay of images to be added in JS -->
@@ -76,7 +94,7 @@
 						<div class="exploreMore">Explore More
 						</div>
 					</div>
-			<section class="portName" id="2014">2010-2014</section>
+			<a href="./2014.html"><section class="portName" id="2014">2010-2014</section></a>
 		</div>
 		
 	</div>
@@ -93,6 +111,8 @@
 		<a href="http://www.instagram.com/artofrufus"target="_blank"><img src="../images/instagram-logo-BB7C1CC9BD-seeklogo.com.png" width="37" height="37" alt="Facebook Link"></a> 
 		
 	</div>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="../js/index.js"></script>
