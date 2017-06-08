@@ -120,6 +120,10 @@ body{
     margin: auto;
 }
 
+.dropbtn{
+	cursor: pointer;
+}
+
 .portDrop{
 	text-align: center;
 	width:9vw;
