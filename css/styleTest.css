@@ -34,15 +34,9 @@
 	height: 12rem;
 }
 
-
-/*.new_work img{
-	display: none;
-}*/
-
-
-
-
-
+.header{
+	width: 60vw;
+}
 
 }
 
@@ -52,7 +46,7 @@
 
 * {
 	max-width: 760px;
-	background-color: grey;
+	background-color: #3d4044;
 	letter-spacing: 0.075rem;
 	text-decoration: none;
 }
@@ -72,15 +66,9 @@
 	height: 7rem;
 }
 
-/*.landing_banner{
-	width: 60vw;
-	margin:auto;
-	display: flex;
-	justify-content: center;
-}*/
-
-
-/*End Landing Page*/
+.header{
+	width: 40vw;
+}
 
 .main_container{
 	width: 60vw;
