@@ -573,7 +573,7 @@ input[type=submit]:hover {
 	*{ max-width: 1220px;
 	}
 
-	 #banner2, .new_work{
+	 #banner2{
 		display: none;
 		float: none;
 	}
@@ -622,8 +622,7 @@ input[type=submit]:hover {
 	text-decoration: none;
 }
 /*Landing Page*/
-.landing_banner, .collection img, 
-.about img, .explore{
+.landing_banner, .collection img, .explore{
 	display: none;
 }
 
@@ -691,12 +690,16 @@ input[type=submit]:hover {
 
 }
 
-@media (max-width: 400px){
+@media (max-width: 600px){
 
 .portfolioImages img{
 	width: 4rem;
 	height: 4rem;
 	display: block;
+}
+
+.new_work{
+	display: none;
 }
 
 .title, .medium, .price, .about, .cv, .home{
