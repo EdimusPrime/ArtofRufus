@@ -265,7 +265,7 @@ img{
     -ms-transform: translate(-50%, -50%)
 }
 
-.portfolioFolder:hover .image {
+.portfolioFolder:hover img {
   	opacity: 0.3;
 }
 
@@ -313,6 +313,7 @@ img{
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-shutter-in-horizontal:hover, 
 .hvr-shutter-in-horizontal:focus, 
 .hvr-shutter-in-horizontal:active, {
@@ -407,47 +408,58 @@ section{
 .home{
 	margin-right: 20px;
 	margin-left: : 20px;
-	width: 90vw;
+	width: 80vw;
 	margin:auto;
 	margin-bottom: 20px;
 }
 
-.art_state{
-	width:40vw;
-	float: left;
-	padding:15px;
-	margin-bottom: 15px;
-}
 
 .updates{
-	width:40vw;
-	float: left;
+	width:75vw;
+	/*float: left;*/
 	padding:15px;
 	margin-top: 10px;
+	margin:auto;
+	text-align: center;
+}
+
+.updatesContent{
+	text-align: left;
+	padding-top: 1rem;
+}
+
+.updates li{
+	font-size: 1.3rem;
+	line-height: 1.5;
 }
 
 .new_work{
-	width:45vw;
-	float: right;
-	border-left: 1px solid white;
+	width:75vw;
+	/*float: right;*/
+	/*border-left: 1px solid white;*/
 	padding:15px 20px 15px 10px;
 	margin-bottom: 30px;
+	margin:auto;
+	text-align: center;
+	justify-content: space-between;
 }
 
 .new_work img{
-	width: 600px;
-	height:500px;
-	margin-left: 80px;
+	/*width: 600px;
+	height:500px;*/
+	/*margin-left: 80px;*/
+	/*margin:auto;*/
+	display: inline-flex;
+	justify-content: space-between;
+	padding-top: 1rem;
+
 }
 .new_work img:hover{
-border: solid 5px #CCC;
-    -moz-box-shadow: 5px 1px 5px #DAA520;
-    -webkit-box-shadow: 5px 1px 5px #DAA520;
-    box-shadow: 5px 1px 5px #DAA520;
     cursor:url('../images/mano-click.png'), auto;
 }
 .home h2{
 	border-bottom: 1px solid #DAA520;
+	padding-bottom: 1rem;
 }
 
 .about img{
@@ -455,7 +467,7 @@ border: solid 5px #CCC;
 	margin-bottom: 30px;
 }
 
-.about, .cv {
+.about, .cv, .cvElements{
 	clear: both;
 	width: 80vw;
 	margin:auto;
@@ -464,6 +476,16 @@ border: solid 5px #CCC;
 .about p{
 	margin-top:60px;
 	line-height: 1.5em;
+}
+
+.art_state{
+	text-align: left;
+	width:70vw;
+	padding:15px;
+	margin:auto;
+	margin-bottom: 15px;
+	line-height: 1.5;
+	clear: both;
 }
 
 .cv{
@@ -481,10 +503,15 @@ border: solid 5px #CCC;
 }
 
 /*Contact page details*/
-.contact {
+.contact{
+	text-align: center;
     padding: 20px 20px 40px 20px;
-    width: 80vw;
+    width: 70vw;
     margin:auto;
+}
+
+.contact p{
+	letter-spacing: .2rem;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -588,7 +615,7 @@ input[type=submit]:hover {
 
 /*end of 1220px media*/
 
-@media (max-width: 760px){
+@media (max-width: 990px){
 
 * {
 	max-width: 760px;
