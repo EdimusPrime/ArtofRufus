@@ -14,11 +14,6 @@ this will include an X to back out to the previous screen, arrows
 to scroll to the next image, and press the esc button to back out 
 completely.*/
 
-
-/*Contact page-after all forms are completed, and user clicks Submit 
-button, the form sends an email to me of submitted message. */
-
-
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
