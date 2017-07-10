@@ -106,6 +106,8 @@ body{
 }
 
 .nav {
+	width: 20vw;
+	margin: auto;
 	/*color: #DAA520;
 	display: flex;
 	align-content: flex-end;
@@ -144,9 +146,6 @@ body{
 	width:9vw;
 }
 
-.portDrop:hover .dropdown-content {
-    display: block;
-}
 
 .portDrop .dropdown-content a:hover {
 	background-color: #DAA520;
@@ -173,7 +172,7 @@ body{
 }
 
 .dropdown-content a {
-	width: 10rem;
+	/*width: 10rem;*/
     /*color: white;*/
     padding: .5px 1px;
     text-decoration: none;
@@ -182,16 +181,16 @@ body{
     background-color: grey;
 }
 
-.dropdown-content h3:hover {
+.dropdown-content h4:hover {
 	background-color: #DAA520
 }
 
 
-.dropdown:hover .dropdown-content {
+.nav:hover .dropdown-content {
     display: block;
 }
 
-.dropdown h3{
+.dropdown h4{
 	background-color: grey;
 }
 
@@ -282,7 +281,7 @@ img{
 .exploreMore {
   	background-color: white;
   	color: black;
-  	font-size: .7rem;
+  	font-size: .9rem;
   	padding: 16px 32px;
 }
 
