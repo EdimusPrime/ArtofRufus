@@ -1,15 +1,19 @@
 * {
-	background-color: #262d35;
 	letter-spacing: 0.075rem;
 	text-decoration: none;
 }
 
 body{
+	background-color: #262d35;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
+}
+
+a:focus {
+    outline:none;
 }
 
 @keyframes fadein {
@@ -18,6 +22,7 @@ body{
 }
 
 .landing_banner{
+	padding-top: 10rem;
 	margin:auto;
 	display: flex;
 	justify-content: center;
