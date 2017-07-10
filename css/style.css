@@ -206,6 +206,7 @@ body{
 	border-top: 2px solid #DCDCDC;
 	text-align: center;
 	clear: both;	
+	margin-top: 5rem
 }
 
 .social{
@@ -416,6 +417,12 @@ section{
 	width: 80vw;
 	margin:auto;
 	margin-bottom: 20px;
+}
+
+.update-img img{
+	margin: auto;
+	padding-top: 18rem;
+	padding-bottom: 18rem;
 }
 
 
