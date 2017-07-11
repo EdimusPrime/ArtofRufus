@@ -201,22 +201,21 @@ body{
 .footer{
 	width: 75vw;
 	margin: auto;
-	justify-content: center;
 	border-top: 2px solid #DCDCDC;
 	text-align: center;
-	clear: both;	
-	margin-top: 5rem
+	margin-top: 3rem;
+	padding-top: 3rem;
 }
 
 .social{
-	justify-content: center;
+	/*justify-content: center;*/
 	width:20%;
-	display: flex;
+	/*display: flex;*/
 	margin: auto;
 }
 
 .social a{
-	margin: 10px;
+	/*margin: 10px;*/
 }
 
 .banner_images{
@@ -419,15 +418,23 @@ section{
 }
 
 .update-img img{
+	margin: .1rem auto;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+span{
+	color: #DAA520;
+}
+
+#myCarousel{
 	margin: auto;
-	padding-top: 18rem;
-	padding-bottom: 18rem;
+	width: 80vw;
 }
 
 
 .updates{
 	width:75vw;
-	/*float: left;*/
 	padding:15px;
 	margin-top: 10px;
 	margin:auto;
@@ -628,9 +635,12 @@ input[type=submit]:hover {
 
 * {
 	max-width: 760px;
-	background-color: #3d4044;
 	letter-spacing: 0.075rem;
 	text-decoration: none;
+}
+
+body{
+		background-color: #3d4044;
 }
 /*Landing Page*/
 .landing_banner, .collection img, .explore{
