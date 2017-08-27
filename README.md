@@ -42,4 +42,4 @@ Some tests were done in Safari and Firefox, but nothing extensive.
 ## Acknowledgments
 
 * [Fancyapps](https://github.com/fancyapps/fancybox)-For their wonderful jQuery lightbox script for displaying images, videos and more. Touch enabled, responsive and fully customizable.
-*[Daniel Eden](https://github.com/daneden)-For his glorious [Animate.css](https://github.com/daneden/animate.css)
+* [Daniel Eden](https://github.com/daneden)-For his glorious [Animate.css](https://github.com/daneden/animate.css)
